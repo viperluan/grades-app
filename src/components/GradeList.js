@@ -101,7 +101,11 @@ const GradeList = () => {
             ))}
         </ul>
 
-        <button className="m-3 btn btn-sm btn-danger" onClick={removeAllGrade}>
+        <button
+          className="m-3 btn btn-sm btn-danger"
+          disabled="true"
+          onClick={removeAllGrade}
+        >
           Remove All
         </button>
       </div>
